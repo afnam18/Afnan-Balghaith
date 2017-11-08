@@ -4,7 +4,7 @@
 // -----------------------------------------------------------------------
 // simple graph object with linked-list edge implementation and minimal fields
 // extra vertex and edge property fields to be added later as needed
-//
+//afnan balghaith
 // graph from Figure 3.10 (Levitan, 3rd edition)
 // input property fields in corresponding user fields of Vertex() object  
 // list property fields in any order; omit those with no value to assign
@@ -153,9 +153,9 @@ function Graph()
 
     // --------------------
     // student methods next; actual functions in student code section at end
-
+    this.f; //just vargit 
     this.DFS = DFS; // perform depth-first search  
-    this.dfs = dfs; // DFS a connected component
+    this.dfs = dfs; // DFSyyyy a connected component
     this.BFS = BFS; // (fill) perform a breadth-first search  
     this.bfs = bfs; // BFS a connected component
 
